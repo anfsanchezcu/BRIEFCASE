@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.color-primary {
+  @apply bg-gradient-to-r from-sky-500 from-60% to-sky-300 ;
+}
+
+.bg-image{
+  background-image: url('/assets/bg.webp');
+}
